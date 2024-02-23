@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 3000px;
+  }
+  .container {
+    width: 100%;
+    height: 2000px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .btn {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  #scrollUpButton,
+  #scrollDownButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+  }
+  .event-buttons {
+    top: 80px;
+    left: 20px;
+    z-index: 999;
+  }
+  #mouseCoordinates {
+    top: 105px;
+    left: 900px;
+    z-index: 999;
+  }
+  #hideScrollButtonsButton {
+    position: fixed;
+    bottom: 20px;
+    right: 150px;
+    z-index: 999;
+  }
+  #showScrollButtonsButton {
+    position: fixed;
+    bottom: 20px;
+    right: 150px;
+    z-index: 999;
+  }
